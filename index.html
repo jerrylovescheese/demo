@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <script src="./assets/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#bar-button-6").click(function () {
+                $("#bar").toggleClass("active");
+            });
+        });
+        $(function () {
+            $("#bar-button-1").click(function () {
+                $("#bar-float-1").toggleClass("active");
+            });
+        });
+        $(function () {
+            $("#bar-button-2").click(function () {
+                $("#bar-float-2").toggleClass("active");
+            });
+        });
+        $(function () {
+            $("#bar-button-3").click(function () {
+                $("#bar-float-3").toggleClass("active");
+            });
+        });
+        $(function () {
+            $("#bar-button-4").click(function () {
+                $("#bar-float-4").toggleClass("active");
+            });
+        });
+    </script>
+    <style>
+        #home-slide-1 {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(./assets/Background\ 1600x1000.jpg);
+            background-size: cover;
+            position: relative;
+            top: 40px;
+        }
+
+        .slide-text {
+            font-family: 'Libre Franklin', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: absolute;
+            top: 70px;
+            left: 30px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .slide-text-smaller {
+            font-family: 'Libre Franklin', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            position: absolute;
+            top: calc(70px + 50px);
+            left: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="bar">
+        <div id="top-bar">
+            <div id="bar-home">
+            </div>
+            <div id="bar-home-title"><b>UVA</b>'s office in University of Western Cape</div>
+            <div id="bar-separator"></div>
+            <div id="bar-button-1" class="bar-button">
+                Students &emsp13;
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+            </div>
+            <div id="bar-separator"></div>
+            <div id="bar-button-2" class="bar-button">
+                Faculties &emsp13;
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+            </div>
+            <div id="bar-separator"></div>
+            <div id="bar-button-3" class="bar-button">
+                Alumnus &emsp13;
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+            </div>
+            <div id="bar-separator"></div>
+            <div id="bar-button-4" class="bar-button">
+                Research &emsp13;
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+            </div>
+            <div id="bar-separator"></div>
+            <div id="bar-button-6" class="bar-button">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </div>
+            <div id="bar-button-5" class="bar-button">
+                Donate &emsp13;
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                </svg>
+            </div>
+        </div>
+        <div id="bar-extension">
+            <ul>
+                <b>For students</b>
+                <li>Courses</li>
+                <li>Studying abroad</li>
+                <li>Olympiad</li>
+            </ul>
+            <ul>
+                <b>For faculties</b>
+                <li>Teaching opportunities</li>
+                <li>Conferences</li>
+                <li>UWC Faculties</li>
+            </ul>
+            <ul>
+                <b>For alumnus</b>
+                <li>Contact us</li>
+                <li>Resources</li>
+                <li>Activities</li>
+            </ul>
+            <ul>
+                <b>For researchers</b>
+                <li>Ongoing research</li>
+                <li>Research opportunities</li>
+                <li>Researchers</li>
+            </ul>
+        </div>
+        <div id="bar-float">
+            <div id="bar-float-1" class="bar-float">
+                <ul>
+                    <li>Courses</li>
+                    <li>Studying abroad</li>
+                    <li>Olympiad</li>
+                </ul>
+            </div>
+            <div id="bar-float-2" class="bar-float">
+                <ul>
+                    <li>Teaching opportunities</li>
+                    <li>Conferences</li>
+                    <li>UWC Faculties</li>
+                </ul>
+            </div>
+            <div id="bar-float-3" class="bar-float">
+                <ul>
+                    <li>Contact us</li>
+                    <li>Resources</li>
+                    <li>Activities</li>
+                </ul>
+            </div>
+            <div id="bar-float-4" class="bar-float">
+                <ul>
+                    <li>Ongoing research</li>
+                    <li>Research opportunities</li>
+                    <li>Researchers</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="home-slide" id="home-slide-1">
+        <div class="slide-text" id="slide-1-text">
+            The South Africa experience
+        </div>
+        <div class="slide-text-smaller" id="slide-1-text">
+            Join an exciting journey with University of Western Cape
+        </div>
+    </div>
+</body>
+
+</html>
